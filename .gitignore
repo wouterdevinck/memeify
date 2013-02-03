@@ -1,0 +1,10 @@
+_ReSharper.*
+*.suo
+*.user
+*.exe
+*.dll
+obj
+bin
+csx
+packages
+Profiles

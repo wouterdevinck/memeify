@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Memeify.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
+  <Role name="Memeify.Web">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=wouterdemostorage;AccountKey=5sZ8135Az+fDaTI1Q/ePCA8C/p+rnS93KUzbjwwBF7RPslZYElp7vavtv8gRZOt0qgNmtH4OI8bTR7O+3kQUfQ==" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://wouter.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=SlHShOa4C3eAE9ezP1ap/EzyELJk+s5e2J+7yS9c38E=" />
+    </ConfigurationSettings>
+  </Role>
+  <Role name="Memeify.ImageServer">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=wouterdemostorage;AccountKey=5sZ8135Az+fDaTI1Q/ePCA8C/p+rnS93KUzbjwwBF7RPslZYElp7vavtv8gRZOt0qgNmtH4OI8bTR7O+3kQUfQ==" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://wouter.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=SlHShOa4C3eAE9ezP1ap/EzyELJk+s5e2J+7yS9c38E=" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

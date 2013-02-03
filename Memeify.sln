@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memeify.Web", "Memeify.Web\Memeify.Web.csproj", "{9B87D316-854C-4395-8FF8-4A104893C59E}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Memeify.Azure", "Memeify.Azure\Memeify.Azure.ccproj", "{67D24B90-D717-4D43-9BF4-653BFF6B6F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memeify.ImageServer", "Memeify.ImageServer\Memeify.ImageServer.csproj", "{D8366207-F47E-43AD-9CD3-8C83813E023B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B87D316-854C-4395-8FF8-4A104893C59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B87D316-854C-4395-8FF8-4A104893C59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B87D316-854C-4395-8FF8-4A104893C59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B87D316-854C-4395-8FF8-4A104893C59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D24B90-D717-4D43-9BF4-653BFF6B6F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D24B90-D717-4D43-9BF4-653BFF6B6F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D24B90-D717-4D43-9BF4-653BFF6B6F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D24B90-D717-4D43-9BF4-653BFF6B6F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8366207-F47E-43AD-9CD3-8C83813E023B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8366207-F47E-43AD-9CD3-8C83813E023B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8366207-F47E-43AD-9CD3-8C83813E023B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8366207-F47E-43AD-9CD3-8C83813E023B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
